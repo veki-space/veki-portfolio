@@ -5,13 +5,18 @@ export const profile = {
   role: 'Co-Founder · VEKI | Developer · AI/ML Enthusiast',
   tagline: 'Building digital experiences and intelligent solutions.',
   short: 'I’m a Computer Science student, developer and Co-Founder of VEKI. I enjoy turning ideas into useful digital products — from modern websites and full-stack applications to AI-powered solutions.',
-  email: 'veki.space@gmail.com',
+  email: 'rmlikhitha057@gmail.com',
   linkedin: 'https://www.linkedin.com/in/likhitha-r-m-0638151ba/',
-  github: 'https://github.com/veki-space',
+  github: 'https://github.com/likhitha402',
   location: 'Mysuru, Karnataka, India',
   intro: 'I’m R. M. Likhitha, a Computer Science student and Co-Founder of VEKI. I work across web development and AI/ML, and enjoy building practical solutions that make technology more accessible to people and businesses. At VEKI, I contribute to creating digital experiences for organisations, institutions and growing businesses.'
 };
-
+// VEKI company contact details. Update these before publishing.
+export const veki = {
+  email: 'veki.space@gmail.com',
+  website: 'https://your-veki-website.com',
+github: 'https://github.com/veki-space',
+};
 // These are presented as VEKI client work based on the founder's portfolio.
 export const vekiProjects = [
   {
@@ -53,6 +58,12 @@ export const vekiProjects = [
     url: 'https://www.instagram.com/shashikala_mysore/',
     label: 'View Instagram',
     mark: 'SM'
+  },
+  {
+    title: 'What’s app automation complaints',
+    category: 'Conversational AI',
+    summary: 'An AI-powered solution for automating responses to common complaints on WhatsApp.',
+    tech: 'Python, Twilio, Dialogflow'
   }
 ];
 
@@ -75,6 +86,13 @@ export const personalProjects = [
     category: 'ML web application',
     summary: 'A car price prediction application with a web interface and machine-learning based estimates.',
     tech: 'Python, Flask, HTML, CSS, JavaScript'
+  },
+    {
+    title: 'Quantum Expense Ledger (QEL)',
+    category: 'Web application',
+    mark: 'QEL',
+    summary: 'A role-based expense management system with separate portals for employees, managers, finance and admins. It simulates AI-driven fraud scoring, policy checks, multi-step approval flows, live currency conversion and an audit trail of every claim.',
+    tech: 'HTML, Tailwind CSS, JavaScript, localStorage',
   }
 ];
 
@@ -98,9 +116,22 @@ export const education = [
   ['B.E. Computer Science', 'Mysore College of Engineering and Management · VTU', 'Computer Science and Engineering']
 ];
 
-export const achievements = [
-  ['Agent Hack', '3rd place · UiPath Agentic AI hackathon'],
-  ['HackVerse 2025', '3rd place · Team-built working prototype']
+export const achievements =   [
+[
+    'InnovateX 4.0: Build with AI',
+    'April 6–9, 2026. Participated in the Build with AI event at the International Tech Fest, InnovateX 4.0, Presidency University.',
+  ],
+  [
+    'PRAYOG 2025: 24-Hour State-Level Hackathon',
+    'November 20–21, 2025. Participated in the hackathon organised by the Department of Mechanical Engineering, Vidyavardhaka College of Engineering, Mysuru.',
+  ],
+  [
+    'Agent Hack: 3rd Place',
+    'October 16, 2025. Secured 3rd place with Team Tech Nova in an 8-hour national hackathon on UiPath Agentic AI, organised by Kristu Jayanti (Deemed to be University), Bengaluru, with UiPath.',
+  ],
+   [
+    'HackVerse 2025: 3rd Place',
+    'September 29, 2025. Secured 3rd place at HackVerse 2025, a 24-hour national inter-collegiate hackathon at Kristu Jayanti (Deemed to be University), Bengaluru, with Google Developers Group.',
+  ],
 ];
-
 export const howIWork = 'I enjoy understanding the problem first, breaking it into manageable steps and building a solution that is useful, reliable and easy to use. Through VEKI and my academic projects, I collaborate with teams and work across web development and AI/ML.';
