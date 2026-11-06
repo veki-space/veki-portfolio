@@ -309,7 +309,7 @@ function VekiSection() {
           </a>
            <a
     className="button button-outline-light"
-    href="https://your-veki-website.com"
+    href="https://veki-website-8zq8.vercel.app/"
     target="_blank"
     rel="noreferrer"
   >
