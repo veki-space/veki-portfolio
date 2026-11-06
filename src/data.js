@@ -14,7 +14,7 @@ export const profile = {
 // VEKI company contact details. Update these before publishing.
 export const veki = {
   email: 'veki.space@gmail.com',
-  website: 'https://your-veki-website.com',
+  website: 'https://veki-website-8zq8.vercel.app/',
 github: 'https://github.com/veki-space',
 };
 // These are presented as VEKI client work based on the founder's portfolio.
